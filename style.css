@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    border: 3px solid rgba(49, 120, 153, 0.829);
+    opacity: 0.8;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: lightslategrey;
+    font-size: 12px;
+}
+.btn{
+    border-radius: 5px;
+}

@@ -1,4 +1,7 @@
+$body-bg:#333;
+
 body{
+    background: $body-bg;
     margin: 0px;
     padding: 0px;
 }

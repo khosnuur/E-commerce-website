@@ -1,0 +1,30 @@
+{
+  "name": "e-commerce-website",
+  "version": "1.0.0",
+  "description": "bootstrap work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khosnuur/E-commerce-website.git"
+  },
+  "author": "Khosnur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khosnuur/E-commerce-website/issues"
+  },
+  "homepage": "https://github.com/khosnuur/E-commerce-website#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}

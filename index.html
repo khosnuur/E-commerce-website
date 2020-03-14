@@ -10,6 +10,8 @@
     <!-- favicon link [ website title[E-Commerce site] er akhane image take favicon bole]  -->
 <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+   
+   
  <!-- paragraph font -->
    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
  <!-- css link of bootstrap-->
@@ -18,8 +20,9 @@
 
 
 <body>
-<!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mt-5 ">
+<!-- navbar --><!--[-mt-5]use kora hoi margin top hisebe--> 
+<!-- [fixed-top] ai cls er madhome nav sec ta fixed hya jabe -->
+    <nav class="navbar navbar-expand-md  navbar-dark  ">
       <div class="container">
         <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt=""> 
@@ -29,6 +32,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- [ml-auto] use hoi jate home soho baki link gulo akebare daanside e chole jai -->
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
@@ -49,37 +53,82 @@
 </nav>
 <!-- end of nav bar -->
 
+
+<!-- ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,????????,,,,,,,,,,,,,,,,, -->
+      <!-- background image creation 
+      
+        <!--dark-overlay] cls use korle bg-image er opor dark prolep porbe-- 
+          
+        -->
+ <!-- ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,????????,,,,,,,,,,,,,,,,, -->
+       
 <!-- HEAD SECTION -->
-
-      <!-- background image creation -->
-      <section id="home-sec">
-        <!--dark-overlay] cls use korle bg-image er opor dark prolep porbe--> 
-          <div class="dark-overlay" >
-            <!--     -->
-      <div class="home-inner">
-        
-  <div class="container">
-<div class="row">
-  <div class="col-md-5">
+<section id="home" class="dark-overlay mt-5">
+           <div class="container ">
+      
+     <div class="row left-side ">
+    <div class="col-md-5   ">
     <!-- display-5] likhata kemon dekhab ta ai cls diye kore deya jai -->
-    <h2 class="display-5">Mackbook Pro</h2> 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae soluta explicabo earum minus minima! Voluptate nobis earum consectetur dignissimos alias!</p>
-  </div>
-  <div class="col-md-7"></div>
-
-
-  </div>
+    <h2 class="display-5 text-white">Mackbook Pro</h2> 
+    <p  class="text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae soluta explicabo earum minus minima! Voluptate nobis earum consectetur dignissimos alias!</p>
+   <button class="btnn text-white">BUY NOW &rarr;</button>
 </div>
-    </div>
-    </div>
+    <div class="col-md-7">
+    <!-- [d-block w-100] ai cls call korle img choto hya jai -->
+    <img class="d-block w-100" src="images/banner-products/product-1.png" alt="">
+</div>
+     </div>
+      </div>
 </section>
 
+<!-- ,,,,,,,,,,,,,,,,,,,,card section,,,,,,,,,,,,,,,,,,,,, -->
+
+<div class="phone-area">
+  <h3 class="phone d-inline-block ">Smartphone</h3>
+  <!-- ;;;;;;;;;;; important class ;;;;;;;;;;;;;;;;;;;;;;; -->
+  <button class="btn btn-outline-warning d-inline-block float-right mt-4 mr-2 p-2">See All</button>
+   <div class="container ">
+     
+  <div class="card-deck mt-5 ">
+   
+  <div class="card pt-5">
+    <img src="images/phone/phone-2.png" class="img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">IPhone 11 Pro</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+    <div class="card-footer">
+      <h5><strong> $999</strong></h5>
+      <button class="btnn text-white">BUY NOW &rarr;</button>
+    </div>
+  </div>
 
 
-
-
-
-
+<div class="card pt-5">
+    <img src="images/phone/phone-3.png" class="img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Samsung Galaxy Note Pro</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    </div>
+    <div class="card-footer">
+     <h5><strong>   $699  </strong></h5>
+      <button class="btnn text-white">BUY NOW &rarr;</button>
+    </div>
+  </div>
+  <div class="card pt-5">
+    <img src="images/phone/phone-1.png" class="img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Redmi 10</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+    </div>
+    <div class="card-footer">
+      <h5><strong> $399    </strong></h5>
+      <button class="btnn text-white">BUY NOW &rarr;</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 
 
 

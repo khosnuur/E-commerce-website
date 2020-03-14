@@ -65,7 +65,16 @@ home section e [section tag] eer cls aita,,,,,,aita diyei bg-img ta aana hoyeche
     background-image: linear-gradient(white,maroon);
     border: none;
     text-align: center;
-  
+    /* for hover */
+   transition: 0.5s ease;
+  cursor: pointer;
+}
+.card:hover{
+    background-image: radial-gradient(pink,gray);
+    box-shadow: 5px 5px 10px rgb(73, 94, 97);
+    /* for hover */
+    transform: scale(1.2);
+
 }
 .phone-area .img-top{
     width: 100%;
@@ -74,6 +83,15 @@ home section e [section tag] eer cls aita,,,,,,aita diyei bg-img ta aana hoyeche
 .phone{
     color: rgb(194, 171, 169);
     padding: 20px 0px 0px 10px;
+   
+}
+/*................. important properties................ */
+.card-title{
+    font-weight: 700;
+    color: rgb(65, 13, 20);
+    text-shadow:2px;
+    letter-spacing: 1px;
+    font-variant: small-caps;
    
 }
 

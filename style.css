@@ -5,19 +5,26 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.container{
-   
-}
+
 .navbar{
     border: 2px solid rgb(4, 52, 75);
     opacity: 0.7;
     background-image: linear-gradient(rgba(211, 170, 93, 0.918),rgb(4, 3, 8));
 }
+.navbar:hover{
+    background-image: linear-gradient(rgb(98, 211, 154),rgb(179, 41, 64));
+}
+
 /* home section e row er cls aita */
 .left-side{
     align-items: center;
     justify-content: center;
     display: flex;
+}
+.sign{
+    font-size:150px;
+    padding:30px;
+    color: darkgoldenrod;
 }
 /* home section e row er btnn-cls aita,,,,,btn tag directly use korle bg-color na diye bg-image property use korte hobe + name btn rakha jabe na..btnn or onno kisu rakho */
 .btnn{
@@ -25,8 +32,6 @@ body{
     border-radius: 5px;
     padding: 5px;
     border: none;
-   
-  
 }
 
 
@@ -41,49 +46,44 @@ home section e [section tag] eer cls aita,,,,,,aita diyei bg-img ta aana hoyeche
 
  
 /* ai cls tar madhome bg-image er opacity kora hoyeche */
-.dark-overlay{
+#home{
     background: rgb(73, 57, 57) no-repeat center top;
     min-height: 600px;
             /* bg-image fixed thakbe */
     background-attachment: fixed;
     background-size: cover;
 }
-.container{
-    
-}
-   
 
 /* bg-clr er jonne ai cls ta neya hoyeche */
 .phone-area{
-    background-color: maroon;
+    background-color: rgb(160, 40, 40);
     border: 2px solid rgb(139, 133, 125);
 }
 .phone-area .card-footer{
     border: none;
 }
 .card{
-    background-image: linear-gradient(white,maroon);
+    background-image: linear-gradient(rgb(199, 148, 184),maroon);
     border: none;
     text-align: center;
     /* for hover */
    transition: 0.5s ease;
   cursor: pointer;
 }
+
 .card:hover{
-    background-image: radial-gradient(pink,gray);
+    background-image: radial-gradient(rgb(61, 152, 226),rgb(58, 26, 146));
     box-shadow: 5px 5px 10px rgb(73, 94, 97);
     /* for hover */
     transform: scale(1.2);
-
 }
 .phone-area .img-top{
     width: 100%;
-    background-color: mediumvioletred;
+   background-color: mediumvioletred;
 }
 .phone{
     color: rgb(194, 171, 169);
     padding: 20px 0px 0px 10px;
-   
 }
 /*................. important properties................ */
 .card-title{
@@ -92,7 +92,20 @@ home section e [section tag] eer cls aita,,,,,,aita diyei bg-img ta aana hoyeche
     text-shadow:2px;
     letter-spacing: 1px;
     font-variant: small-caps;
-   
+}
+#last-part{
+    background: url('images/-abstract-painting-1856455.jpg') no-repeat center top; 
+    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+}
+.dark-overlay{
+   background: rgb(0,0,0,0.7);
+    opacity: 0.2;
+    min-height: 500px;
+}
+.last-row img{
+    color: rgb(4, 3, 8);
 }
 
 

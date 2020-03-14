@@ -94,19 +94,17 @@ home section e [section tag] eer cls aita,,,,,,aita diyei bg-img ta aana hoyeche
     font-variant: small-caps;
 }
 #last-part{
-    background: url('images/-abstract-painting-1856455.jpg') no-repeat center top; 
+    background: url('images/different-shades-of-green-color-2078266.jpg') no-repeat center top; 
     background-size: cover;
     min-height: 500px;
     background-attachment: fixed;
 }
-.dark-overlay{
+..dark-overlay{
    background: rgb(0,0,0,0.7);
     opacity: 0.2;
     min-height: 500px;
 }
-.last-row img{
-    color: rgb(4, 3, 8);
-}
+
 
 
 
